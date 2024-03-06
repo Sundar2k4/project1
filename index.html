@@ -11,11 +11,19 @@
   <body>
     <section class="cod">
       <label for="mood"
-        ><b style="font-size: x-large">How are you feeling</b></label
+        ><b style="font-size: xx-large">How are you feeling:</b></label
       ><br />
-      <input type="range" id="mood" /><br />
+      <img src="/imag.jpg" style="width: 180px" />
+      <input
+        type="range"
+        style="display: flex"
+        class="mod"
+        min="0"
+        max="1000"
+        value="1000"
+      /><br />
       <label for="thought"
-        ><b style="font-size: x-large">How was your day</b></label
+        ><b style="font-size: xx-large">How was your day:</b></label
       ><br />
       <textarea id="thought"></textarea><br />
       <button class="muy">Submit</button>
