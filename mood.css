@@ -6,6 +6,7 @@ h1{
     letter-spacing: 10px;
     font-family:papyrus;
     text-align:center;
+    position: relative;
 }
 body{
     background-image: url(https://images.pexels.com/photos/1831234/pexels-photo-1831234.jpeg?cs=srgb&dl=pexels-madison-inouye-1831234.jpg&fm=jpg);
@@ -16,7 +17,7 @@ input[type = "textarea"]
     color:red;
 }
 h1:hover{
-    color:yellow;
+    color:blue;
 }
 button{
     color:blueviolet;
@@ -30,4 +31,14 @@ h2::first-letter{
 .cod{
       margin-top: 80px;
       margin-left: 650px;
+}
+.mod{
+    -webkit-appearance: none;
+    border-radius: 15px;
+    background-color: aqua;
+    display:flex;
+    position:relative;
+    padding:10px 10px 5px 5px;
+    outline:none;
+    width:19%;
 }
