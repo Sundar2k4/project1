@@ -1,6 +1,6 @@
 h2{
-    
-    text-align:left;
+    margin-top:80px;
+    margin-left:520px;
 }
 h1{
     letter-spacing: 10px;
@@ -10,6 +10,24 @@ h1{
 body{
     background-image: url(https://images.pexels.com/photos/1831234/pexels-photo-1831234.jpeg?cs=srgb&dl=pexels-madison-inouye-1831234.jpg&fm=jpg);
 }
-.mod{
-    text-align: center;
+
+input[type = "textarea"]
+{
+    color:red;
+}
+h1:hover{
+    color:yellow;
+}
+button{
+    color:blueviolet;
+}
+button:hover{
+    background-color:greenyellow;
+}
+h2::first-letter{
+    font-size: 50px;
+}
+.cod{
+      margin-top: 80px;
+      margin-left: 650px;
 }
